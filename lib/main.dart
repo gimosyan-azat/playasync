@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:playasync/views/MainScreen.dart';
+import 'package:playasync/views/BottomSheetPage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
                     icon: const Icon(Icons.add),
                     color: Colors.black)
               ]),
-          body: const MainScreen()),
+          body: const BottomSheetPage()),
     );
   }
 }
